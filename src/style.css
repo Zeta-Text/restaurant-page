@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 4%, rgba(188,108,37,1) 87%, rgba(221,161,94,1) 100%); 
+}
+
+
+
+#content {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    overflow: hidden;
+    background-color: white;
+    width: 60vw;
+    margin: auto;
+    min-width: 900px;
+    height: 100vh;
+
+}
+
+#head {
+    background-color: #606c38;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive;
+    padding: 15px;
+    font-weight: 500;
+    text-shadow: 2px 2px #1f1e1e;
+
+}
+
+.btn {
+    padding: 10px 70px;
+    background-color: #283618;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.btn:hover {
+    color: rgb(248, 203, 118);
+}
+
+#menu {
+    background-color: #283618;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+#imgContainer {
+    padding-top: 20px;
+}
+
+#vesuvio-img {
+    width: 270px;
+    height: 350px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+}
+
+#articleContent {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h {
+    font-size: 20px;
+    text-align: center;
+     
+}
+
+#p {
+  
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#contentDiv {
+    padding-top: 20px;
+    text-align: center;
+}
+
